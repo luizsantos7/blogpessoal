@@ -21,8 +21,8 @@ return (
                 py-4
             ">
                 <h2 className="text-3xl font-semibold">Seja Bem-Vinde</h2>
-
                 <p className="text-xl">Expresse aqui seus pensamentos e opiniões!</p>
+                
                 <div className="
                     flex
                     justify-around
