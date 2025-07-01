@@ -4,7 +4,7 @@ import { AuthContext } from "../../../contexts/AuthContext";
 import { RotatingLines } from "react-loader-spinner";
 import type Tema from "../../../models/Tema";
 import type Postagem from "../../../models/Postagem";
-import { atualizar, buscar, cadastrar } from "../../../services/Services";
+import { atualizar, buscar, cadastrar } from "../../../services/Services.ts";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
 
 function FormPostagem() {
