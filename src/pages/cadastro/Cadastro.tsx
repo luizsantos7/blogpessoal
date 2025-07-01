@@ -3,7 +3,7 @@ import './Cadastro.css'
 import type Usuario from '../../models/Usuario'
 import { useNavigate } from 'react-router-dom'
 import { RotatingLines } from 'react-loader-spinner'
-import { cadastrarUsuario } from '../../services/Services.ts'
+import { cadastrarUsuario } from '../../services/Services'
 import { ToastAlerta } from '../../utils/ToastAlerta'
 
 function Cadastro() {
