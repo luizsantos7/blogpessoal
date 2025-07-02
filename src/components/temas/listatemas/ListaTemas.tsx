@@ -3,7 +3,7 @@ import CardTemas from "../cardtemas/CardTemas"
 import { useContext, useEffect, useState } from "react";
 import type Tema from "../../../models/Tema";
 import { AuthContext } from "../../../contexts/AuthContext";
-import { buscar } from "../../../services/Services"
+import { buscar } from "../../../services/services"
 import { DNA } from "react-loader-spinner";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
 

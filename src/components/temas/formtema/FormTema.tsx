@@ -2,7 +2,7 @@ import { useState, useContext, type ChangeEvent, type FormEvent, useEffect } fro
 import { useNavigate, useParams } from "react-router-dom"
 import { AuthContext } from "../../../contexts/AuthContext"
 import type Tema from "../../../models/Tema"
-import { atualizar, buscar, cadastrar } from "../../../services/Services"
+import { atualizar, buscar, cadastrar } from "../../../services/services"
 import { RotatingLines } from "react-loader-spinner"
 import { ToastAlerta } from "../../../utils/ToastAlerta"
 

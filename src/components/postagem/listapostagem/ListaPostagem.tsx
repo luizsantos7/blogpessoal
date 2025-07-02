@@ -3,7 +3,7 @@ import CardPostagens from "../cardpostagem/CardPostagem";
 import { useState, useContext, useEffect } from "react";
 import { AuthContext } from "../../../contexts/AuthContext";
 import { DNA } from "react-loader-spinner";
-import { buscar } from "../../../services/Services";
+import { buscar } from "../../../services/services";
 import type Postagem from "../../../models/Postagem";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
 

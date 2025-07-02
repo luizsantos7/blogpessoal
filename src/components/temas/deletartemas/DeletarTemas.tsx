@@ -2,7 +2,7 @@ import { useState, useContext, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { AuthContext } from '../../../contexts/AuthContext'
 import type Tema from '../../../models/Tema'
-import { buscar, deletar } from '../../../services/Services'
+import { buscar, deletar } from '../../../services/services'
 import { RotatingLines } from 'react-loader-spinner'
 import { ToastAlerta } from '../../../utils/ToastAlerta'
 
